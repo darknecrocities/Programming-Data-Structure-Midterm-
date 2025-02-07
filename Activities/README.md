@@ -88,3 +88,5 @@ You are tasked with creating a **Library Management System** for a small public 
 - **Array** for fixed book inventory
 
 ---
+## Answers
+- solution is place on LibraryManagementSystem.java
