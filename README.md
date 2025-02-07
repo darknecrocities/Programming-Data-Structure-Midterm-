@@ -1,31 +1,27 @@
 # Java Programming Concepts - Reviewer 📚
 This reviewer covers essential topics related to Strings, Arrays, Collections, and Tuples in Java. It is designed to help you understand key concepts and methods used in Java programming.
 
-📖 1. Strings and Arrays
-📌 Character Data
-java
-Copy
-Edit
+## 📖 1. Strings and Arrays
+**📌 Character Data**
+```
 char letter = 'A';
-📌 Character Class Methods
-java
-Copy
-Edit
+```
+***📌 Character Class Methods***
+```
 char ch = '1';
 if (Character.isDigit(ch)) {
     System.out.println(ch + " is a digit.");
+
 }
-📌 String & String Methods
-java
-Copy
-Edit
+```
+***📌 String & String Methods***
+```
 String str = "Hello, World!";
 System.out.println("Length: " + str.length());
 System.out.println("Substring: " + str.substring(0, 5));  // Output: Hello
-📌 StringBuilder & StringBuffer
-java
-Copy
-Edit
+```
+***📌 StringBuilder & StringBuffer***
+```
 StringBuilder sb = new StringBuilder("Hello");
 sb.append(" World!");
 System.out.println(sb.toString());  // Output: Hello World!
@@ -33,8 +29,9 @@ System.out.println(sb.toString());  // Output: Hello World!
 StringBuffer sbf = new StringBuffer("Thread Safe");
 sbf.append(" Buffer");
 System.out.println(sbf.toString());  // Output: Thread Safe Buffer
-📖 2. Array Declaration and Initialization
-📌 Variable Subscript
+```
+## 📖 2. Array Declaration and Initialization
+**📌 Variable Subscript**
 java
 Copy
 Edit
